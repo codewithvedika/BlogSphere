@@ -1,0 +1,79 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ 
+.homeHero {
+    height: 80vh;
+    background-image: url(/public/hero1.png);
+    background-position: center;
+    background-size: cover;
+}
+.homeHero img {
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    background-color: #FBF9E7 !important;
+    opacity: 70%;
+    transition: transform 0.5s ease, box-shadow 0.2s ease;
+    border: solid #87CEEB;
+}
+
+.homeHero img:hover {
+    /* transform: scale(0.9); */
+    box-shadow: 0 15px 35px  #82C8E5;
+}
+
+
+.about img{
+    width: 100%;
+}
+
+
+/* all button  */
+
+.Link{
+    text-decoration: none ;
+    background-color: #FDB813;
+    color: #36454F ;
+    font-size: 1.3rem;
+    font-weight:bolder;
+    padding: 0.5rem 1.5rem;
+    margin: 0.1rem auto;
+    border-radius: 15px;
+}
+.Link:hover{
+    background-color: #FDB813;
+    box-shadow: 0 0px 10px  #87CEEB;
+    color: #36454F !important;
+}
+
+.card {
+    background-color: #FFFFE0;
+    padding: 1rem;
+    border: solid #87CEEB 1px;
+    border-radius:10px ;
+}
+.card img{
+    padding: 0.5rem;
+    border: solid #87CEEB 2px;
+    border-radius:10px ;
+}
+
+
+.expertise-card {
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+     border: solid #87CEEB 1px !important;
+}
+
+.expertise-card:hover {
+    transform: translateY(-8px);
+    /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15) !important; */
+    box-shadow: 0 0px 10px  #87CEEB !important;
+
+}
+
+
