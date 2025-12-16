@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 // const url = "https://blog-ez8m.onrender.com/api/blog/"
-const url = "http://localhost:5000/API/BLOG"
+const url = "https://blogsphere-backend-8k2r.onrender.com/api/blog"
 
 
 export const getBlogs = createAsyncThunk("blog/getBlogs", async () => {

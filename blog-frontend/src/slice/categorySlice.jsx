@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const url = "https://blog-ez8m.onrender.com/api/category/"
+const url = "https://blogsphere-backend-8k2r.onrender.com/api/category/"
 
 export const getCategory = createAsyncThunk("category/getCategory", async () => {
     try {

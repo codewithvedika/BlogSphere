@@ -23,8 +23,8 @@ function Footer() {
   };
 
   return (
-    <footer 
-      className="footer-container py-5 px-4 overflow-hidden" 
+    <footer
+      className="footer-container py-5 px-4 overflow-hidden"
       data-aos="fade-up"
       style={{ backgroundColor: colors.background, color: colors.text }}
     >
@@ -33,8 +33,8 @@ function Footer() {
         {/* Logo & Branding */}
         <div className="col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center text-start">
           <div className="d-flex align-items-center gap-2">
-            <img src="./public/logo2.png" alt="Logo" style={{ height: '5rem', borderRadius:"10px" }} />
-            <NavLink 
+            <img src="./logo2.png" alt="Logo" style={{ height: '5rem', borderRadius: "10px" }} />
+            <NavLink
               to="/"
               className="text-decoration-none fw-bold fs-4"
               style={{ color: colors.link }}
@@ -50,36 +50,36 @@ function Footer() {
           <h5 className="fw-bold mb-3" style={{ color: colors.link }}>Quick Links</h5>
           <ul className="list-unstyled">
             <li>
-              <NavLink 
-                to="/" 
-                className="text-decoration-none d-block mb-1" 
+              <NavLink
+                to="/"
+                className="text-decoration-none d-block mb-1"
                 style={{ color: colors.link }}
               >
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink 
-                to="/programs" 
-                className="text-decoration-none d-block mb-1" 
+              <NavLink
+                to="/programs"
+                className="text-decoration-none d-block mb-1"
                 style={{ color: colors.link }}
               >
                 Programs
               </NavLink>
             </li>
             <li>
-              <NavLink 
-                to="/blog" 
-                className="text-decoration-none d-block mb-1" 
+              <NavLink
+                to="/blog"
+                className="text-decoration-none d-block mb-1"
                 style={{ color: colors.link }}
               >
                 Blog
               </NavLink>
             </li>
             <li>
-              <NavLink 
-                to="/contact" 
-                className="text-decoration-none d-block mb-1" 
+              <NavLink
+                to="/contact"
+                className="text-decoration-none d-block mb-1"
                 style={{ color: colors.link }}
               >
                 Contact
@@ -102,8 +102,8 @@ function Footer() {
         <div className="col-md-4 d-flex flex-column align-items-center mb-4 mb-md-0" data-aos="fade-right">
           <FooterLocation />
           <p className="fw-bold mt-2 mb-1" style={{ color: colors.link }}>Location</p>
-          <span className="small">441-408 Training Studio</span>
-          <span className="small">Sangli, Maharashtra, India</span>
+          <span className="small">416-401 Pune</span>
+          <span className="small">Maharashtra, India</span>
         </div>
 
         <div className="col-md-4 d-flex flex-column align-items-center mb-4 mb-md-0" data-aos="fade-up">
@@ -116,12 +116,12 @@ function Footer() {
         <div className="col-md-4 d-flex flex-column align-items-center" data-aos="fade-left">
           <FooterMail />
           <p className="fw-bold mt-2 mb-1" style={{ color: colors.link }}>Email</p>
-          <a 
-            href="mailto:contact@myproject.com" 
+          <a
+            href="mailto:vedika2225@gmail.com"
             className="text-decoration-none small"
             style={{ color: colors.link }}
           >
-            contact@myproject.com
+            vedika2225@gmail.com
           </a>
         </div>
       </div>

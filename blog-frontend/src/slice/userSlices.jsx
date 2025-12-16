@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const url = "https://blog-ez8m.onrender.com/api/user/"
+const url = "https://blogsphere-backend-8k2r.onrender.com/api/user/"
 
 export const getUser = createAsyncThunk("user/getUser", async () => {
     try {
